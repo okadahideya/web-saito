@@ -326,7 +326,7 @@ div#top_right h3{
   padding-left: 30px;
 }
 
-div#top_right ul li{
+div#top_right ul#post_list li{
   width: 600px;
   height: 152px;
   background-color: #fff;
@@ -334,7 +334,7 @@ div#top_right ul li{
   margin-bottom: 30px;
 }
 
-div#top_right ul li dl dt{
+div#top_right ul#post_list li dl dt{
   width: 247px;
   height: 152px;
   float: left;
@@ -392,4 +392,27 @@ div#top_right p{
 div#top_right p a{
   color: #f6ac4d;
   text-decoration: underline;
+}
+
+div#pagination{
+  width: auto;
+  height: 34px;
+  float: right;
+}
+
+div#pagination ul li {
+  width: auto;
+  height: 32px;
+  background-color: #fff;
+  border: 1px solid #dcdddf;
+  float: left;
+  margin-left: 10px;
+}
+
+div#pagination ul li a{
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 32px;
+  padding: 0 8px;
+  display: inline-block;
 }
