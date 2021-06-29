@@ -139,6 +139,21 @@ div#top_pickup{
 p#pickup_thumb{
   width: 580px;
   height: 256px;
+  position: relative;
+}
+
+/* rgba tagの色と透明度の設定 */
+span#pickup_tag{
+  background-color: rgba(246, 172, 77, 0.9);
+  padding: 0 10px;
+  font-size: 14px;
+  color: #fff;
+  width: auto;
+  height: 32px;
+  line-height: 32px;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 div#top_pickup dl{
